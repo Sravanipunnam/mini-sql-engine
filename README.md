@@ -13,23 +13,6 @@ The goal of the project is to understand how a database internally processes a s
 
 This project also demonstrates skills in **data parsing**, **data management**, **CLI development**, and **modular programming**.
 
----
-
-## 📂 Project Structure
-
-mini-sql-engine/
-│
-├── cli.py # Command-line interface for user interaction
-├── parser.py # SQL parsing logic (SELECT, WHERE, COUNT)
-├── engine.py # Query execution: filtering, projection, aggregation
-├── generate_data.py # Script using Faker to generate sample CSV files
-│
-├── data/
-│ ├── employees.csv # Sample dataset for testing
-│ └── products.csv # Additional dataset for testing
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
 
 📘 Supported SQL Grammar
 
